@@ -41,7 +41,6 @@ jobs:
         with:
           name: app-release.apk
           path: build/app/outputs/flutter-apk/app-release.apk
-
       - name: upload artifact to firebase APP distribution
         uses: weareweb/Firebase-Distribution-Github-Action@V1
         with:
